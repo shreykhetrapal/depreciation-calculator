@@ -19,7 +19,7 @@ calculations <- function(earnings,tax,price,depreciation,years){
     new_earnings <- earnings - earnings_reduces_on_asset
     
     # tax to be paid on the new income  
-    tax_to_be_paid <- new_earnings*30/100
+    tax_to_be_paid <- new_earnings*tax/100
     
     # tax saved due to reduced new income  
     tax_saved <- tax_default - tax_to_be_paid
