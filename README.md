@@ -12,4 +12,6 @@ Tax on Rs. 84 is Rs. 25.2, hence saving you Rs. 4.8
 
 This is what the app does for you.
 
+![App](screenshot.png)
+
 
